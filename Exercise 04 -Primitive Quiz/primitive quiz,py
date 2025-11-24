@@ -1,0 +1,6 @@
+# Ask the user and evaluate the answer (case-insensitive)
+answer = input("What is the capital of France? ").strip().lower()
+if answer == "paris":
+    print("Correct — Paris is the capital of France.")
+else:
+    print("Wrong — the correct answer is Paris.")
